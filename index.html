@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Mad Libs</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/jquery-3.3.1.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="mt-5 mb-5">Fill in the blanks below to write your own Mab Libs story!</h1>
+      <form>
+        <div class="form-group">
+          <label for="name1">Any name</label>
+          <input type="text" class="form-control" id="name1" placeholder="Enter a name here">
+        </div>
+        <div class="form-group">
+          <label for="name2">Another name</label>
+          <input type="text" class="form-control" id="name2" placeholder="Enter another name here (different than above)">
+        </div>
+        <div class="form-group">
+          <label for="animal">Animal</label>
+          <input type="text" class="form-control" id="animal" placeholder="Animal of your choice">
+        </div>
+        <div class="form-group">
+          <label for="verb">Verb</label>
+          <input type="text" class="form-control" id="verb" placeholder="Enter any verb">
+        </div>
+        <div class="form-group">
+          <label for="noun">Noun</label>
+          <input type="text" class="form-control" id="noun" placeholder="Enter any noun">
+        </div>
+        <div class="form-group">
+          <label for="exclamation">Exclamation</label>
+          <input class="form-control" id="exclamation" placeholder="Enter an exclamation">
+        </div>
+        <button type="submit" class="btn btn-primary">Show me the story!</button>
+        <div class="initially-hidden mt-5 mb-5">
+          <h2 class="mb-2">Your Mab Libs Story:</h2>
+          <p class="mb-5">
+            One day, <span class="name1"></span> and <span class="name2"></span> were walking through the woods, when suddenly a giant <span class="animal"></span> appeared. "<span class="exclamation"></span>", <span class="name1"></span> cried. The two of them <span class="verb"></span> as quickly possible, and when they were safe, <span class="name1"></span> and <span class="name2"></span> gave each other a giant <span class="noun"></span>.
+          </p>
+        </div>
+      </form>
+    </div>
+  </body>
+  <script src="js/scripts.js"></script>
+</html>
